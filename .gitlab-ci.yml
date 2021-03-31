@@ -5,7 +5,7 @@ pages:
   - apk update && apk add ldoc
   - ldoc -v -c docs/config.ld -d ../public -a .
   - mkdir -p public/manual/docs
-  - cp docs/berry.svg public/manual/docs
+  - cp docs/berry.png public/manual/docs
   artifacts:
     paths:
     - public
